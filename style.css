@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*==========Header==========*/
+.header {
+    margin: 0;
+    padding: 20px 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(6, 12, 26, 1);
+    border-bottom: 1px solid #73582f;
+    height: 67px;
+}
+
+.header_title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    padding: 10px;
+}
+
+.main_icon {
+    max-width: 45px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_link {
+    color: #fff;
+    margin-left: 50px;
+    font-size: 19px;
+    position: relative;
+    transition: all .1s linear;
+}
+
+.menu_link:not(.main_link):hover {
+    color: #ffa51f;
+}
+
+.main_link {
+    color: #ffa51f;
+}
+
+.main_link::before {
+    content: "";
+    position: absolute;
+    bottom: -42px;
+    left: 0;
+    background-color: #ffa51f;
+    border-radius: 2px;
+    height: 3px;
+    width: 100%;
+}
+
+h1 {
+    color: #ffa51f;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+
+
+/*==========Main==========*/
+.main_left,
+.main_right {
+    width: 25%;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(6, 12, 26, 1);
+}
+
+.main_left {
+    word-wrap: break-word;
+    background-color: #1f1f1f;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.left_text {
+    color: white;
+    padding: 30px 40px;
+}
+
+.left_title {
+    margin-top: 70px;
+    background-color: inherit;
+    color: #ffa51f;
+    padding: 0 40px;
+}
+
+.main_center {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.center_top {
+    background-color: #000;
+    word-wrap: break-word;
+    justify-content: flex-start;
+    max-height: 400px;
+}
+
+.image_center {
+    width: 100%;
+    height: 100%;
+}
+
+.center_down {
+    height: 100%;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #d99e29;
+    font-size: 1.25rem;
+    padding: 60px 50px;
+    letter-spacing: 1.05px;
+}
+
+.center_text:not(:last-child) {
+    padding-bottom: 30px;
+}
+
+.center_list {
+    margin: 0 0 0 0;
+    padding: 0 0 30px 20px;
+}
+
+.center_list_line:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.center_title {
+    padding: 0 0 20px 0;
+    background-color: inherit;
+}
+
+.main_right {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.right_top {
+    background-color: #1f1f1f;
+    height: 100%;
+    padding: 10px;
+    word-wrap: break-word;
+    padding: 30px 40px;
+}
+
+.right_top_title {
+    background-color: inherit;
+    color: #ffa51f;
+    margin-top: 75px;
+    padding: 0;
+}
+
+.right_top_text {
+    color: white;
+    margin-top: 30px;
+}
+
+.right_top_list {
+    margin: 0;
+    padding: 30px 20px;
+}
+
+.right_list_line {
+    padding-bottom: 10px;
+    color: orange;
+    letter-spacing: 1px;
+}
+
+.right_top_list strong {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.right_down {
+    background-color: #242424;
+    padding: 15px;
+    justify-content: flex-end;
+    word-wrap: break-word;
+    text-align: center;
+    /*max-height: 160px;*/
+}
+
+.right_down_1 {
+    text-align: left;
+}
+
+.right_down_title {
+    text-decoration: underline;
+    background-color: inherit;
+    color: #ffa51f;
+    padding: 0;
+}
+
+.right_down_list {
+    margin: 0;
+    padding: 30px 0 0 20px;
+}
+
+.right_down_list_link {
+    padding-bottom: 10px;
+    color: orange;
+    letter-spacing: 1.1px;
+}
+
+.right_down_list_link strong {
+    color: white;
+    font-size: 1.1rem;
+}
+
+
+
+
+/*==========Footer==========*/
+.footer {
+    margin: 0;
+    padding: 30px 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(6, 12, 26, 1);
+    border-top: 1px solid #73582f;
+    height: 100px;
+}
+
+.footer p {
+    padding: 0;
+    margin: 0;
+}
+
+.footer_text {
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.header_title_footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer_text_title {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.footer_img {
+    max-width: 70px;
+    max-height: 70px
+}
+
