@@ -16,12 +16,6 @@ h1, h2, h3, p {
 
 
 
-
-
-
-
-
-
 /*==========Header==========*/
 .header {
     margin: 0;
@@ -127,7 +121,9 @@ h1 {
     background-color: #000;
     word-wrap: break-word;
     justify-content: flex-start;
-    max-height: 400px;
+    max-height: 249px;
+    max-width: 100%;
+    padding: 0;
 }
 
 .image_center {
